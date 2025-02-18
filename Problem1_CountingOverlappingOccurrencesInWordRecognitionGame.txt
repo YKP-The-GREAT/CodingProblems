@@ -1,0 +1,26 @@
+Problem Statement:
+
+In an online word recognition game for kids, the user needs to find the number of times a given word occurs in a sentence. Both the given word and the sentence displayed on the user interface consist solely of letters from the English alphabet and are case insensitive (e.g., "toddler" is the same as "Toddler"). Neither the word nor the sentence contains any white spaces or special symbols.
+
+Task:
+Write an algorithm to print the number of times the given word appears in the sentence.
+
+Input:
+
+The first line of input is a string representing the sentence displayed on the user interface.
+The second line is a string representing the given word.
+Output:
+Print an integer representing the number of times the given word appears in the sentence. If the word does not occur in the sentence, print 0.
+
+Note:
+Overlapping instances of the word may appear in the sentence.
+_____________________________
+
+Example:
+
+Input:
+TodisplayinginthehouseofTodwiththeTod
+Tod
+
+Output:
+4
